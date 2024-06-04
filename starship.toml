@@ -1,5 +1,7 @@
 # starship config by BTY
 
+add_newline = false # Disable the blank line at the start of the prompt
+
 [directory]
 style = '#f5c2e7'
 
@@ -10,12 +12,6 @@ style_user = '#cba6f7'
 [character]
 success_symbol = '[\$](#a6e3a1)'
 error_symbol = '[\$](#f38ba8)'
-
-[memory_usage]
-disabled = false
-threshold = -1
-style = '#94e2d5'
-symbol = '[ ](#94e2d5)'
 
 [git_branch]
 symbol = ' '
