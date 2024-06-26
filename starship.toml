@@ -3,15 +3,14 @@
 add_newline = false # Disable the blank line at the start of the prompt
 
 [directory]
-style = '#f5c2e7'
+style = 'white'
 
 [username]
 show_always = true
-style_user = '#cba6f7'
 
 [character]
-success_symbol = '[\$](#a6e3a1)'
-error_symbol = '[\$](#f38ba8)'
+success_symbol = '[\$](green)'
+error_symbol = '[\$](red)'
 
 [git_branch]
 symbol = ' '
